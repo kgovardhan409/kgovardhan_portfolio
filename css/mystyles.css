@@ -14,3 +14,19 @@
 .menu{
     color: #7510F7;
 }
+#mainPage{
+    padding-top: 7%;
+}
+#designation{
+    font-size: 50px;
+}
+#about{
+    font-size: 20px;
+}
+#details{
+    background-color: #372cbb;
+}
+
+#description{
+    padding: 10% 20% 5%;
+}

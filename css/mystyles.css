@@ -24,8 +24,69 @@
     font-size: 20px;
 }
 #details{
-    background-color: #1603ff;
+    background-color: #7510F7;
 }
 #description{
-    padding: 10% 20% 5%;
+    padding: 10% 20% 20%;
+}
+.skills{
+    margin-top: -10%;
+    background-color: #fff;
+    border: 1px solid  rgb(209, 208, 208);
+    box-shadow: 1px 2px rgb(209, 208, 208);
+}
+.mycolor{
+    color: #7510F7;
+    font-size: 19px;
+}
+/* #project1{
+    background-color: aqua;
+    height: 300px;
+}
+#project1:hover{
+    background-color: blueviolet;
+    animation-name: myanim;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    content: 'Lorem ipsum is the dummy text usually all devleops are used to display some content in websites';
+}
+.projects{
+    margin-top: 9%;
+}
+
+@keyframes myanim {
+    0% {
+
+    }
+    50% {
+        background-color: chartreuse;
+
+    }
+    100% {
+        background-color: darkgoldenrod;
+    }
+} */
+
+.project1-main{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 400px;
+}
+.project-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    margin: 0px 14px;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 36px 28px;
+}
+.project-text:hover {
+    opacity: 1;
 }

@@ -1,8 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+}
 .hello-btn{
     background-color: #ffff;
     color: #7510F7;
     border: 2px solid #7510F7;
-    padding: 10px 20px;
+    padding: 10px 26px;
     border-radius: 30px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -28,6 +33,11 @@
 }
 #description{
     padding: 10% 20% 20%;
+}
+@media (max-width : 500px){
+        #description{
+            padding: 10% 0 20%;
+        }
 }
 .skills{
     margin-top: -10%;
@@ -72,7 +82,10 @@
     top: 0;
     left: 0;
     background-color: #fff;
-    height: 400px;
+    /* height: 275px; */
+            }
+.projects-title{
+    margin: 5% 0;
 }
 .project-text {
     position: absolute;
@@ -89,4 +102,98 @@
 }
 .project-text:hover {
     opacity: 1;
+}
+
+.start-a-project{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    /* font-size: 18px; */
+    text-align: center;
+    padding: 42px 0;
+    position: relative;
+    top: 84px;
+    margin: 0 auto;
+    /* margin-bottom: -10px; */
+}
+.start-a-project-title{
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.lets-do-btn{
+    /* background-color: #ffff; */
+    color: #ffff;
+    border: 2px solid #7510F7;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.lets-do-btn:hover{
+    background-color: #7510F7;
+    color: #ffff
+}
+
+footer{
+    background-color: #7510F7;
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social-link ul {
+    list-style-type: none;
+    }
+  .social-link li {
+    display: inline-block; 
+    }
+    .social-link li a {
+        text-decoration: none;
+    }
+  .social-link a i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #7510F7;
+    margin-right: 5px;
+    color: #fff; 
+    font-size: 20px !important;
+    border: 1px solid #fff;
+    }
+    
+.social-link a i:hover{
+    background-color: #fff;
+    color: #7510f7;
+}
+
+.footer-title-logo{
+    padding-top: 10%;
+}
+.footer-title{
+    padding-bottom: 5%;
+}
+.footer-copyright{
+    padding: 5% 0;
+}
+
+/* say hellow css starts */
+
+.avtar{
+    margin-top: -39px;
+}
+.submit-btn{
+    /* margin-left: 26%; */
+}
+.form-main {
+    font-size: 20px;
+}
+.form-main input{
+    font-size: 23px;
 }

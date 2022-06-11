@@ -79,8 +79,8 @@
                     </div>
                     
                 </div>
-                <div class="col-12 submit-btn  text-center pt-4">
-                    <button onclick="sendEmail()" class="btn btn-rounded hello-btn">Submit</button>
+                <div class="col-12 submit-btn  text-center py-4">
+                    <input type="button" onclick="sendEmail()" class="btn btn-rounded hello-btn" value="Submit">
                 </div>
                 <div class="col-3"></div>
             </div>
@@ -108,7 +108,7 @@ s0.parentNode.insertBefore(s1,s0);
       var name = document.querySelector("#name").value;
       var email = document.querySelector("#email").value;
       var message = document.querySelector("#message").value;
-      if(name.validity.valid && email.validity.valid && message.validity.valid){
+      if(document.myForm.name.validity.valid && document.myForm.email.validity.valid && document.myForm.message.validity.valid){
         Email.send({
             Host: "smtp.elasticemail.com",
             Username: "kgovardhan409@smtp.com",

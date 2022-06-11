@@ -99,6 +99,7 @@
     justify-content: center;
     text-align: center;
     padding: 36px 28px;
+    height: 240px;
 }
 .project-text:hover {
     opacity: 1;

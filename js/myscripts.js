@@ -1,5 +1,7 @@
-
+window.postMessage("message", '*');
 $(function(){
+
+    
 
     $(window).on('scroll',function() {
         if (checkVisible($('footer'))) {

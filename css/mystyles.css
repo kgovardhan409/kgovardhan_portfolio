@@ -89,7 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    min-height: 200px;
             }
 .projects-title{
     margin: 5% 0;

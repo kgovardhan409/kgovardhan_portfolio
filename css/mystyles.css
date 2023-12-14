@@ -77,12 +77,18 @@
     }
 } */
 
+
+
 .project1-main{
     position: relative;
     top: 0;
     left: 0;
     background-color: #fff;
-    /* height: 275px; */
+    min-height: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
             }
 .projects-title{
     margin: 5% 0;
